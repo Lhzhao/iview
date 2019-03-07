@@ -241,8 +241,8 @@
                 }
 
                 this.handleStart(file);
-                let formData = new FormData();
-                formData.append(this.name, file);
+                // let formData = new FormData();
+                // formData.append(this.name, file);
 
                 ajax({
                     headers: this.headers,
